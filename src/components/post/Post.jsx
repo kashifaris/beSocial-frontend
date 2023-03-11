@@ -24,7 +24,7 @@ const Post = ({post}) => {
                 <div className="details">
                     <Link to={`/profile/${post.userId}`} style={{textDecoration:'none', color:'inherit'}}>
                         <span className="name">{post.name}</span>
-                        <span className="date">1 min ago</span>
+                        <span className="date"> 1 min ago</span>
                     </Link>
                 </div>
             </div>
